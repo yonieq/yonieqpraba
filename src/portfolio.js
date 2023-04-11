@@ -5,18 +5,18 @@
 import emoji from "react-easy-emoji";
 
 const illustration = {
-  animated: true // set to false to use static SVG
+  animated: true, // set to false to use static SVG
 };
 
 const greeting = {
   username: "Yonieq Praba Saputra",
   title: "Hi all, I'm Yonieq",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Python / Reactjs / Nodejs / Django / Flutter / Laravel and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs /Flutter / Laravel and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1Gq3z8J2u6g-hQ8pLNUdt0vpWZn0aO0Fc/view?usp=sharing",
-  displayGreeting: true // Set false to hide this section, defaults to true
+  displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
@@ -31,14 +31,15 @@ const socialMediaLinks = {
   stackoverflow: "https://stackoverflow.com/users/13858368/yonieq-praba",
   // instagram: 'https://www.instagram.com/davidrakosi/',
   // twitter: 'https://twitter.com/davidrakosi_',
-  display: true // Set true to display this section, defaults to false
+  display: true, // Set true to display this section, defaults to false
 };
 
 // Skills Section
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "A FULL STACK DEVELOPER THAT HURTS FOR SCIENCE WANT TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "A FULL STACK DEVELOPER THAT HURTS FOR SCIENCE WANT TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -46,7 +47,7 @@ const skillsSection = {
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -55,46 +56,42 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      fontAwesomeClassname: "fab fa-html5",
     },
     {
       skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      fontAwesomeClassname: "fab fa-css3-alt",
     },
     {
       skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      fontAwesomeClassname: "fab fa-sass",
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fab fa-js",
     },
     {
       skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      fontAwesomeClassname: "fab fa-react",
     },
     {
       skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      fontAwesomeClassname: "fab fa-node",
     },
     {
       skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      fontAwesomeClassname: "fab fa-npm",
     },
     {
       skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      fontAwesomeClassname: "fas fa-database",
     },
     {
       skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    }
+      fontAwesomeClassname: "fas fa-fire",
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -108,20 +105,17 @@ const educationInfo = {
       subHeader: "Master of Science in Computer Science",
       duration: "September 2017 - April 2019",
       desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
     },
     {
       schoolName: "Stanford University",
       logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
-  ]
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
+    },
+  ],
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -131,26 +125,22 @@ const techStack = {
   experience: [
     {
       Stack: "Laravel", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "100%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "Django",
-      progressPercentage: "70%"
+      Stack: "ReactJS",
+      progressPercentage: "90%",
     },
     {
-      Stack: "HTML",
-      progressPercentage: "100%"
-    },
-    {
-      Stack: "CSS3",
-      progressPercentage: "96%"
+      Stack: "VueJS",
+      progressPercentage: "96%",
     },
     {
       Stack: "Flutter",
-      progressPercentage: "90%"
-    }
+      progressPercentage: "90%",
+    },
   ],
-  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -163,24 +153,48 @@ const workExperiences = {
       company: "CV. Karya Surya Gemilang",
       companylogo: require("./assets/images/company.png"),
       date: "March 2018 – June 2018",
-      desc:
-        "Implementasi sistem kepada user kepada pengguna.",
+      desc: "System implementation to user to user.",
       descBullets: [
         "Edukasi Sistem SIMRS",
         "Coaching",
         "Maintenance",
-        "Error Handling"
-      ]
+        "Error Handling",
+      ],
     },
     {
       role: "Backend Developer",
       company: "PT. Surya Rahayu Indonesia",
       companylogo: require("./assets/images/company.png"),
       date: "August 2019 – June 2021",
-      desc:
-        "I am a software developer building an API for the social assistance SIMRS application."
-    }
-  ]
+      desc: "I am a software developer building an API for the social assistance SIMRS application.",
+    },
+    {
+      role: "Software Engineer",
+      company: "PT. Hebros",
+      companylogo: require("./assets/images/company.png"),
+      date: "December 2021 – December 2022",
+      desc: "I build an application from scratch using Laravel and VueJS",
+      descBullets: [
+        "CREATE AND DESIGN AN APPLICATION FOR CCTV RECORDING MANAGEMENT",
+        "CREATING AND DESIGNING APPLICATION APPLICATIONS, SUBMISSIONS FOR PURCHASE OF GOODS",
+        "MAKE A CLIENT TICKETING APPLICATION",
+      ],
+    },
+    {
+      role: "Fullstack Developer",
+      company: "PT. Yubi Tecknologi",
+      companylogo: require("./assets/images/company.png"),
+      date: "January 2022 – Until Now",
+      desc: "I develop and create an ERP (Enterprise Resource Planning) application, POS sales, and others. Using Laravel, VueJS and Flutter.",
+      descBullets: [
+        "CREATE A CRM SYSTEM APPLICATION",
+        "CREATING ERP SYSTEM APPLICATIONS",
+        "CREATING QUEUE SYSTEM APPLICATION FOR RESTAURANT",
+        "MAKE A POINT OF SALES SYSTEM APPLICATION",
+        "CREATE A ERP SYSTEM APPLICATION",
+      ],
+    },
+  ],
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -190,7 +204,7 @@ const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "drakosi99", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -206,21 +220,22 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://bintangrasacatering.herokuapp.com/"
-        }
+          url: "https://bintangrasacatering.herokuapp.com/",
+        },
         //  you can add extra buttons here.
-      ]
+      ],
     },
     {
       image: require("./assets/images/klinik.png"),
       projectName: "E-Klinik Pratama",
-      projectDesc: "Sistem Management Klinik Pratama Politeknik Harapan Bersama Tegal",
+      projectDesc:
+        "Sistem Management Klinik Pratama Politeknik Harapan Bersama Tegal",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://niqklinik.herokuapp.com/"
+          url: "https://niqklinik.herokuapp.com/",
         },
-      ]
+      ],
     },
     {
       image: require("./assets/images/ebantuan.png"),
@@ -229,9 +244,9 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://ebantuan.herokuapp.com/"
+          url: "https://ebantuan.herokuapp.com/",
         },
-      ]
+      ],
     },
     {
       image: require("./assets/images/golapak.png"),
@@ -240,12 +255,48 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://golapak.store/"
+          url: "http://golapak.store/",
         },
-      ]
-    }
+      ],
+    },
+    {
+      image: require("./assets/images/pcb.png"),
+      projectName: "S-ERP System",
+      projectDesc:
+        "System Enterprise Resource Planning (ERP) for speacialist for sales and marketing",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://golapak.store/",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/p-erp.png"),
+      projectName: "P-ERP System",
+      projectDesc:
+        "System Enterprise Resource Planning (ERP) for speacialist for production",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://golapak.store/",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/pos.png"),
+      projectName: "POS System",
+      projectDesc:
+        "Point of Sales System for Restaurant, Cafe, Mini Market, etc",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://golapak.store/",
+        },
+      ],
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -265,20 +316,17 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url:
-            ""
+          url: "",
         },
         {
           name: "Award Letter",
-          url:
-            ""
+          url: "",
         },
         {
           name: "Google Code-in Blog",
-          url:
-            ""
-        }
-      ]
+          url: "",
+        },
+      ],
     },
     {
       title: "Google Assistant Action",
@@ -288,10 +336,9 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Google Assistant Action",
-          url:
-            ""
-        }
-      ]
+          url: "",
+        },
+      ],
     },
 
     {
@@ -299,15 +346,15 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+      ],
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -319,39 +366,36 @@ const blogSection = {
 
   projects: [
     {
-      url:
-        "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?",
     },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.",
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji(
-    ""
-  ),
+  subtitle: emoji(""),
 
   talks: [
     {
       title: "",
       subtitle: "",
       slides_url: "",
-      event_url: ""
-    }
+      event_url: "",
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -361,10 +405,8 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    ""
-  ],
-  display: false // Set false to hide this section, defaults to true
+  podcast: [""],
+  display: false, // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -372,14 +414,14 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "(0823) 2368 9258",
-  email_address: "yonieqpraba@gmail.com"
+  email_address: "yonieqpraba@gmail.com",
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  display: false, // Set true to display this section, defaults to false
 };
 
 export {
@@ -397,5 +439,5 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails
+  twitterDetails,
 };
