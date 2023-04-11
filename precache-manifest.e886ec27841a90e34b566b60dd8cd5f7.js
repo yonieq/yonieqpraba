@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8aa5b316877dac71bfcb6e8d63cb1cd4",
+    "revision": "7a4360769bc45e6d69b2668acd85c692",
     "url": "/yonieqpraba/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yonieqpraba/static/css/4.3e7d09e6.chunk.css"
   },
   {
-    "revision": "6da9e18450f2d0e838dd",
+    "revision": "bf990a4e6e49eaacf6fe",
     "url": "/yonieqpraba/static/css/main.59f79455.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yonieqpraba/static/js/4.2075744a.chunk.js"
   },
   {
-    "revision": "6da9e18450f2d0e838dd",
-    "url": "/yonieqpraba/static/js/main.e0953154.chunk.js"
+    "revision": "bf990a4e6e49eaacf6fe",
+    "url": "/yonieqpraba/static/js/main.e2d455e7.chunk.js"
   },
   {
     "revision": "d9e9bb2a63ceedd60ba1",
