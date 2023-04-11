@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "97bc6a62f86655d91e52ab78beee1aee",
+    "revision": "8aa5b316877dac71bfcb6e8d63cb1cd4",
     "url": "/yonieqpraba/index.html"
   },
   {
-    "revision": "f3d767af897c81c3cbb2",
+    "revision": "2cdbd9cb4463b65dbcd4",
     "url": "/yonieqpraba/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "7fabaa47c4b28a00f7de",
+    "revision": "7b8190a416f6819bf163",
     "url": "/yonieqpraba/static/css/4.3e7d09e6.chunk.css"
   },
   {
-    "revision": "8975e1e407531f0dbc01",
-    "url": "/yonieqpraba/static/css/main.0cd1a9f9.chunk.css"
+    "revision": "6da9e18450f2d0e838dd",
+    "url": "/yonieqpraba/static/css/main.59f79455.chunk.css"
   },
   {
-    "revision": "44beae87f21aa9737a04",
-    "url": "/yonieqpraba/static/js/2.db482528.chunk.js"
+    "revision": "fee58a4cbec00d6c519f",
+    "url": "/yonieqpraba/static/js/2.3e35f46d.chunk.js"
   },
   {
-    "revision": "3d4186a67aba203694a5f10d101a5461",
-    "url": "/yonieqpraba/static/js/2.db482528.chunk.js.LICENSE.txt"
+    "revision": "5b571a43117d7de158db9e221eaa0225",
+    "url": "/yonieqpraba/static/js/2.3e35f46d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f3d767af897c81c3cbb2",
-    "url": "/yonieqpraba/static/js/3.43b3e457.chunk.js"
+    "revision": "2cdbd9cb4463b65dbcd4",
+    "url": "/yonieqpraba/static/js/3.89736139.chunk.js"
   },
   {
-    "revision": "7fabaa47c4b28a00f7de",
-    "url": "/yonieqpraba/static/js/4.be1bd03f.chunk.js"
+    "revision": "7b8190a416f6819bf163",
+    "url": "/yonieqpraba/static/js/4.2075744a.chunk.js"
   },
   {
-    "revision": "8975e1e407531f0dbc01",
-    "url": "/yonieqpraba/static/js/main.035526a5.chunk.js"
+    "revision": "6da9e18450f2d0e838dd",
+    "url": "/yonieqpraba/static/js/main.e0953154.chunk.js"
   },
   {
-    "revision": "d35c2fb3c8d4ff8793ac",
-    "url": "/yonieqpraba/static/js/runtime-main.16d27462.js"
+    "revision": "d9e9bb2a63ceedd60ba1",
+    "url": "/yonieqpraba/static/js/runtime-main.81f25630.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -90,6 +90,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
     "url": "/yonieqpraba/static/media/manOnTable.52be3144.svg"
+  },
+  {
+    "revision": "5bec9d47bfa559bb73d0668f3b4e5a3a",
+    "url": "/yonieqpraba/static/media/p-erp.5bec9d47.png"
+  },
+  {
+    "revision": "73d7338ae19c28f4bfe2163caf0fe05e",
+    "url": "/yonieqpraba/static/media/pcb.73d7338a.png"
+  },
+  {
+    "revision": "ec92f76ad3bd0f09ea27db1c3a5c6159",
+    "url": "/yonieqpraba/static/media/pos.ec92f76a.png"
   },
   {
     "revision": "ee62cb58630f29a6e6201b49d4c03728",
